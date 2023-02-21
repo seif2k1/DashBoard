@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.74bcfe25.css",
+    "main.js": "/static/js/main.e4953835.js",
+    "static/media/wallpaperflare-cropped (5).jpg": "/static/media/wallpaperflare-cropped (5).f216fab43a60bbb8b0a9.jpg",
+    "static/media/wallpaperflare-cropped (2).jpg": "/static/media/wallpaperflare-cropped (2).5cc0d637896e94a00722.jpg",
+    "static/media/wallpaperflare-cropped (4).jpg": "/static/media/wallpaperflare-cropped (4).4426dcbf57b116d7ac35.jpg",
+    "index.html": "/index.html",
+    "static/media/coin.svg": "/static/media/coin.ab357d40c9964006a17b69f61f20f084.svg",
+    "static/media/people.svg": "/static/media/people.228be5eb076c2bd028aca5fec6e4e318.svg",
+    "static/media/currency-dollar.svg": "/static/media/currency-dollar.c9bd92d342b283295190d5ecc0f6611c.svg",
+    "static/media/clipboard.svg": "/static/media/clipboard.24234b146e19c85c710381b26f65ca67.svg",
+    "static/media/house-door.svg": "/static/media/house-door.1503d524ceced87858816d2ac5a66d12.svg",
+    "static/media/graph-up.svg": "/static/media/graph-up.fdbf0cf4f0f357071fac5d41c1a9374c.svg",
+    "static/media/box2.svg": "/static/media/box2.71c0206949eaf1f725c64b6e78b88bb9.svg",
+    "main.74bcfe25.css.map": "/static/css/main.74bcfe25.css.map",
+    "main.e4953835.js.map": "/static/js/main.e4953835.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.74bcfe25.css",
+    "static/js/main.e4953835.js"
+  ]
+}
