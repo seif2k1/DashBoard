@@ -1,0 +1,115 @@
+.navbarMenu{
+    height: 100%;
+    width: auto;
+}
+.navbarMenu-header{
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    margin-bottom: 20%;
+}
+.navbarMenu-header>svg{
+    cursor: pointer;
+    width: 80px;
+    height: 80px;
+}
+.navbarMenu-header>span{
+    font-size:30px;
+    font-weight: bold;
+}
+.navbarMenu-content{
+    transition: all 800ms ease;
+    display: grid;
+    gap:30px;
+    cursor: pointer;
+}
+.menu-content{
+    transition: all 800ms ease;
+    display: flex;
+    align-items: center;
+    gap:15px;
+}
+.menu-content>img{
+    height: 25px;
+    width: 25px;
+    margin-left: 15px;
+}
+.navbarMenu-content .active:before{
+    content: " ";
+    width: 10px;
+    height: 100%;
+    background-color: rgb(240, 58, 88);
+}
+.navbarMenu-content h3{
+    margin:10px 0;
+    font-size: 20px;
+    font-weight: bold;
+}
+.navbarMenu-content .active img{
+    margin-left:5px;
+}
+.navbarMenu-content .active{
+    gap:10px;
+    background-color: rgba(240, 58, 88, 0.756);
+    border-radius:0 8px 8px 0;
+    transition: all 800ms ease;
+}
+.bars{
+    display:none;
+}
+@media only screen and (768px<=width<=1024px){
+    .content{
+        background:red;
+    }
+    .navbarMenu-header,.navbarMenu-content h3{
+        display:none;
+    }
+    .navbarMenu-content{
+        margin-top: 50px;
+    }
+}
+@media only screen and (0px<=width<=768px){
+    .navbarMenu-header,.navbarMenu-content h3{
+        display:block;
+    }
+    .navbarMenu-content{
+        margin-top: 50px;
+    }
+    .navbarMenu{
+        position: fixed;
+        z-index: 9;
+        background-color:  #ffe0e0;
+        width: 57%;
+        padding:1rem;
+        height: 100%;
+    }
+    .navbarMenu-content h3{
+        font-size: 14px;
+    }
+    .navbarMenu-header>svg{
+        width: 50px;
+        height: 50px;
+    }
+    .navbarMenu-header{
+        display: flex;
+        align-items: center;
+    }
+    .bars{
+        position:fixed;
+        display: flex;
+        top:2rem;
+        z-index: 99;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .bars h1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color:black;
+        background-color:  #ffe0e0;
+        padding:10px 15px;
+        border-radius: 15px;
+    }
+}

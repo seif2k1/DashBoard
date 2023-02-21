@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+}
+.content{
+    height: auto;
+    background-image:linear-gradient(to right, #ff8473 25%,#fae766 100%);
+    padding:15px 25px;
+}
+.section-content{
+    background-color: rgb(255, 255, 255,0.54);
+}
+.row{
+    --bs-gutter-x:0;
+}
+
+@media only screen and (0px<=width<=768px){
+    .content{
+        padding:7px 9px;
+    }
+}

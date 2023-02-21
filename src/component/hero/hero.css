@@ -1,0 +1,23 @@
+.Maindash{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.col-lg-7{
+    padding:20px;
+}
+
+@media only screen and (768px <=width<= 1024px){
+    .Card{
+        overflow: scroll;
+    }
+    .col-md-7{
+        padding:10px;
+    }
+}
+@media only screen and (0px <=width<= 768px){
+.table-content{
+    overflow:scroll;
+}
+}
